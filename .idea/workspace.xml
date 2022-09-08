@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dee8f0b0-bfc3-4ae3-9d35-eef33f3ab20d" name="Changes" comment="my code">
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefination/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefination/Steps.java" afterDir="false" />
-    </list>
+    <list default="true" id="dee8f0b0-bfc3-4ae3-9d35-eef33f3ab20d" name="Changes" comment="Added a fullstop for testing" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +15,14 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Added a fullstop for testing">
+      <created>1662637790172</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662637790172</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -29,5 +35,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added a fullstop for testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a fullstop for testing" />
   </component>
 </project>
