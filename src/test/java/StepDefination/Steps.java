@@ -1,16 +1,13 @@
 package StepDefination;
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
+
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+
 import static StepDefination.Hook.driver;
 
 public class Steps {
@@ -19,7 +16,7 @@ public class Steps {
     //@Given if we have multiple given statements
     @Given("As a user I am on the login page")
     public void as_a_user_i_am_on_the_login_page() {
-        System.out.println("My first test");
+        System.out.println("My first test.");
 
         driver.get("https://parabank.parasoft.com/parabank/index.html");
         driver.manage().window().maximize();
