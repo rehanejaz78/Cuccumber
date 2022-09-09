@@ -17,7 +17,7 @@ public class Steps {
     @Given("As a user I am on the login page")
     public void as_a_user_i_am_on_the_login_page() {
         System.out.println("My first test....");
-
+        System.out.println("Hello");
         driver.get("https://parabank.parasoft.com/parabank/index.html");
         driver.manage().window().maximize();
     }
