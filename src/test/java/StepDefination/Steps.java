@@ -73,6 +73,7 @@ public class Steps {
         System.out.println("I am on the result page");
 
         driver.get("https://mail.google.com");
+        System.out.println("gmail.com site");
 
     }
 
