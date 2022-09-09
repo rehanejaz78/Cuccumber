@@ -74,6 +74,7 @@ public class Steps {
 
         driver.get("https://mail.google.com");
         System.out.println("gmail.com site");
+        System.out.println("hello world");
 
     }
 
