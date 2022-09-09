@@ -26,7 +26,7 @@ public class Steps {
     public void i_enter_valid_credentials() {
         driver.findElement(By.name("username")).sendKeys("testuser");
         driver.findElement(By.name("password")).sendKeys("password");
-
+        System.out.println("Chokass");
     }
 
     @And("I click on the Login button")
