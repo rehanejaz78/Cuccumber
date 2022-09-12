@@ -36,7 +36,11 @@ public class Steps {
 
         driver.findElement(By.cssSelector("input[value='Log In']")).click();
         System.out.println("branch rehan");
+<<<<<<< HEAD
         System.out.println("master branch");
+=======
+        System.out.println("new changes for pull");
+>>>>>>> rehan1
     }
 
     @Then("I should be taken to overview page")
