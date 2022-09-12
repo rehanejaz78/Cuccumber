@@ -20,6 +20,7 @@ public class Steps {
         System.out.println("Hello");
         driver.get("https://parabank.parasoft.com/parabank/index.html");
         driver.manage().window().maximize();
+        System.out.println("Master");
     }
 
     @When("I enter valid credentials")
