@@ -28,6 +28,7 @@ public class Steps {
         driver.findElement(By.name("username")).sendKeys("testuser");
         driver.findElement(By.name("password")).sendKeys("password");
         System.out.println("Chokass");
+        System.out.println("Happy");
     }
 
     @And("I click on the Login button")
