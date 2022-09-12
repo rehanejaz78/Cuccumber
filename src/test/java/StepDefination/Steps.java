@@ -91,6 +91,10 @@ public class Steps {
     @When("I type in search bar")
     public void i_type_gmail_com_in_search_bar() {
         driver.findElement(By.name("q")).sendKeys("gmail");
+
+        System.out.println(" i am changing code , currently in rehan");
+        
+
     }
 
 
